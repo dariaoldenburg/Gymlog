@@ -1,0 +1,46 @@
+@import "../../styles/variables";
+
+.header-top {
+  background: $accent-color-2;
+  height: $header-top-height;
+  padding: 0 $space-sm;
+  color: $white;
+
+  .header-top__logo-box {
+
+    .header-top__logo-icon {
+      font-size: 30px;
+    }
+
+    .header-top__logo-title {
+      font-size: 30px;
+      font-weight: 600;
+      margin-left: $space-xs;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+  }
+
+  .header-top__icons-box {
+    font-size: 26px;
+
+    .header-top__icon {
+      cursor: pointer;
+
+      &:not(:last-child) {
+        margin-right: $space-md;
+      }
+    }
+  }
+}
+
+.header-bottom {
+  background: $white;
+  height: $header-bottom-height;
+
+  .header-bottom__title {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: $accent-color-2;
+  }
+}
